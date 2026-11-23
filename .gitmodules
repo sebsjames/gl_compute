@@ -1,0 +1,6 @@
+[submodule "extern/maths"]
+	path = extern/maths
+	url = git@github.com:sebsjames/maths
+[submodule "extern/mathplot"]
+	path = extern/mathplot
+	url = git@github.com:sebsjames/mathplot
