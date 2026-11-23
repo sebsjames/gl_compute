@@ -9,12 +9,13 @@
 // GLES3/gl3[12].h (and maybe GLES3/gl3ext.h).
 #include <GLES3/gl31.h>
 
-#include <sm/vvec>
 #include <mplot/gl/compute_manager.h>
 #include <mplot/gl/util_nomx.h>
 #include <mplot/gl/texture.h>
 #include <mplot/gl/ssbo_nomx.h>
-#include <mplot/loadpng.h>
+
+import sm.vvec;
+import mplot.loadpng;
 
 namespace my {
 

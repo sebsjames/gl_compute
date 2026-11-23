@@ -1,5 +1,3 @@
-include_directories(BEFORE ${PROJECT_SOURCE_DIR})
-
 # Note: Using a C++-20 construct in these programs
 add_executable(shadercompute shadercompute.cpp)
 # As we're not loading GL with glad2, we have to set these defines
